@@ -28,7 +28,7 @@ legend::before {
   content: "";
   width: calc(120%);
   display: block;
-  background-color: #eb6864;
+  background-color: #4a148c;
   height: 40px;
   z-index: -1;
   left: -30px;
@@ -44,7 +44,17 @@ legend:hover::before {
 form.card {
   border: none;
 }
-
+.form-container {
+  background-color: #7c83fd;
+}
+.btn-form {
+  background-color: #4a148c;
+  color: #fff;
+}
+.btn-form:hover {
+  background-color: #200450;
+  color: #fff;
+}
 .letra {
   white-space: pre-wrap;
 }
